@@ -1,0 +1,54 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="150dp"
+    android:viewportWidth="400"
+    android:viewportHeight="300">
+
+    <!-- Sky -->
+    <path
+        android:fillColor="#E8F5E9"
+        android:pathData="M0,0h400v300h-400z" />
+
+    <!-- Sun rays background -->
+    <path
+        android:fillColor="#FFF59D"
+        android:pathData="M80,50m-30,0a30,30 0 1,1 60,0a30,30 0 1,1 -60,0" />
+
+    <!-- Ground -->
+    <path
+        android:fillColor="#81C784"
+        android:pathData="M0,220 Q200,180 400,220 L400,300 L0,300 Z" />
+
+    <!-- Tree 1 (Left) -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M60,200 L80,200 L80,260 L60,260 Z" />
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M30,210 L70,120 L110,210 Z" />
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M40,160 L70,90 L100,160 Z" />
+
+    <!-- Tree 2 (Center) -->
+    <path
+        android:fillColor="#4E342E"
+        android:pathData="M190,190 L210,190 L210,270 L190,270 Z" />
+    <path
+        android:fillColor="#1B5E20"
+        android:pathData="M140,210 L200,70 L260,210 Z" />
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M155,150 L200,40 L245,150 Z" />
+
+    <!-- Tree 3 (Right) -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M310,200 L330,200 L330,260 L310,260 Z" />
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M280,210 L320,130 L360,210 Z" />
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M290,170 L320,100 L350,170 Z" />
+</vector>

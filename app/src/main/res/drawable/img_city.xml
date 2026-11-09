@@ -1,0 +1,64 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="150dp"
+    android:viewportWidth="400"
+    android:viewportHeight="300">
+
+    <!-- Twilight Sky -->
+    <path
+        android:fillColor="#311B92"
+        android:pathData="M0,0h400v300h-400z" />
+    <path
+        android:fillColor="#4A148C"
+        android:pathData="M0,150h400v150h-400z" />
+
+    <!-- Distant Sky Glow -->
+    <path
+        android:fillColor="#8E24AA"
+        android:pathData="M0,200h400v100h-400z" />
+
+    <!-- Building Silhouettes -->
+    <!-- Building 1 -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M30,100h60v200h-60z" />
+    <!-- Building 2 -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M110,60h70v240h-70z" />
+    <!-- Spire on Building 2 -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M142,20h6v40h-6z" />
+    <!-- Building 3 -->
+    <path
+        android:fillColor="#1C2833"
+        android:pathData="M200,120h80v180h-80z" />
+    <!-- Building 4 -->
+    <path
+        android:fillColor="#263238"
+        android:pathData="M300,80h65v220h-65z" />
+
+    <!-- Lit Windows -->
+    <!-- Building 1 Windows -->
+    <path
+        android:fillColor="#FFEE58"
+        android:pathData="M45,120h10v12h-10z M65,120h10v12h-10z M45,150h10v12h-10z M65,180h10v12h-10z" />
+    <!-- Building 2 Windows -->
+    <path
+        android:fillColor="#FFF59D"
+        android:pathData="M125,80h12v15h-12z M150,80h12v15h-12z M125,120h12v15h-12z M150,150h12v15h-12z M125,190h12v15h-12z M150,190h12v15h-12z" />
+    <!-- Building 3 Windows -->
+    <path
+        android:fillColor="#FFEE58"
+        android:pathData="M220,140h15v10h-15z M248,140h15v10h-15z M220,170h15v10h-15z M248,200h15v10h-15z" />
+    <!-- Building 4 Windows -->
+    <path
+        android:fillColor="#FFF59D"
+        android:pathData="M315,100h10v12h-10z M335,100h10v12h-10z M315,140h10v12h-10z M335,180h10v12h-10z" />
+
+    <!-- Ground / Street -->
+    <path
+        android:fillColor="#111111"
+        android:pathData="M0,280h400v20h-400z" />
+</vector>

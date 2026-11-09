@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="150dp"
+    android:viewportWidth="400"
+    android:viewportHeight="300">
+
+    <!-- Sky -->
+    <path
+        android:fillColor="#FFE0B2"
+        android:pathData="M0,0h400v180h-400z" />
+    <path
+        android:fillColor="#FFCC80"
+        android:pathData="M0,60h400v120h-400z" />
+
+    <!-- Sun -->
+    <path
+        android:fillColor="#FF6F00"
+        android:pathData="M200,160m-45,0a45,45 0 1,1 90,0a45,45 0 1,1 -90,0" />
+
+    <!-- Sea -->
+    <path
+        android:fillColor="#0288D1"
+        android:pathData="M0,160h400v140h-400z" />
+
+    <!-- Sea Waves & Reflections -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M170,175h60v4h-60z M160,190h80v4h-80z M180,205h40v4h-40z" />
+
+    <!-- Wave Details -->
+    <path
+        android:fillColor="#01579B"
+        android:pathData="M0,220 Q100,210 200,220 T400,220 L400,300 L0,300 Z" />
+    <path
+        android:fillColor="#004D40"
+        android:fillAlpha="0.3"
+        android:pathData="M0,260 Q100,250 200,260 T400,260 L400,300 L0,300 Z" />
+</vector>

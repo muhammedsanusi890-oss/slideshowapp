@@ -1,0 +1,46 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="150dp"
+    android:viewportWidth="400"
+    android:viewportHeight="300">
+
+    <!-- Deep Space Sky -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M0,0h400v300h-400z" />
+
+    <!-- Moon -->
+    <path
+        android:fillColor="#FFF59D"
+        android:pathData="M290,50 A40,40 0 1,0 350,110 A45,45 0 1,1 290,50 Z" />
+
+    <!-- Stars -->
+    <!-- Star 1 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,40 L63,47 L70,47 L64,51 L66,58 L60,53 L54,58 L56,51 L50,47 L57,47 Z" />
+    <!-- Star 2 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M150,80 L152,85 L157,85 L153,88 L154,93 L150,90 L146,93 L147,88 L143,85 L148,85 Z" />
+    <!-- Star 3 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M220,30 L222,35 L227,35 L223,38 L224,43 L220,40 L216,43 L217,38 L213,35 L218,35 Z" />
+    <!-- Star 4 -->
+    <path
+        android:fillColor="#FFF9C4"
+        android:pathData="M100,130 L101,133 L104,133 L102,135 L103,138 L100,136 L97,138 L98,135 L96,133 L99,133 Z" />
+    <!-- Star 5 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M340,160 L342,165 L347,165 L343,168 L344,173 L340,170 L336,173 L337,168 L333,165 L338,165 Z" />
+
+    <!-- Night Hills Silhouette -->
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M0,230 Q120,190 240,230 T400,210 L400,300 L0,300 Z" />
+    <path
+        android:fillColor="#0A0E27"
+        android:pathData="M0,260 Q180,220 400,260 L400,300 L0,300 Z" />
+</vector>

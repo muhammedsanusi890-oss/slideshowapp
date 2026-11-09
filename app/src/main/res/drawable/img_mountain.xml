@@ -1,0 +1,41 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="150dp"
+    android:viewportWidth="400"
+    android:viewportHeight="300">
+
+    <!-- Sky -->
+    <path
+        android:fillColor="#E0F7FA"
+        android:pathData="M0,0h400v300h-400z" />
+
+    <!-- Sun -->
+    <path
+        android:fillColor="#FBC02D"
+        android:pathData="M320,80m-35,0a35,35 0 1,1 70,0a35,35 0 1,1 -70,0" />
+
+    <!-- Distant Mountain -->
+    <path
+        android:fillColor="#9E9E9E"
+        android:pathData="M80,300 L230,120 L350,300 Z" />
+
+    <!-- Snow cap distant -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M230,120 L254,149 L206,149 Z" />
+
+    <!-- Main Mountain -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M-20,300 L140,80 L300,300 Z" />
+
+    <!-- Snow cap main -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M140,80 L172,124 L108,124 Z" />
+
+    <!-- Foreground Hills -->
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M0,250 Q100,210 200,250 T400,250 L400,300 L0,300 Z" />
+</vector>
