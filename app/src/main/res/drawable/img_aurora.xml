@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="150dp"
+    android:viewportWidth="400"
+    android:viewportHeight="300">
+
+    <!-- Night Sky -->
+    <path
+        android:fillColor="#050B14"
+        android:pathData="M0,0h400v300h-400z" />
+
+    <!-- Aurora Wave Green -->
+    <path
+        android:fillColor="#00E676"
+        android:fillAlpha="0.6"
+        android:pathData="M0,60 Q100,140 200,40 T400,100 L400,200 L0,200 Z" />
+
+    <!-- Aurora Wave Teal -->
+    <path
+        android:fillColor="#1DE9B6"
+        android:fillAlpha="0.5"
+        android:pathData="M0,100 Q150,20 300,120 T400,80 L400,220 L0,220 Z" />
+
+    <!-- Snowy Mountain Silhouette -->
+    <path
+        android:fillColor="#102A43"
+        android:pathData="M0,300 L120,160 L240,300 Z M180,300 L300,140 L400,300 Z" />
+
+    <!-- Snow Peak Caps -->
+    <path
+        android:fillColor="#E0F7FA"
+        android:pathData="M120,160 L140,185 L100,185 Z M300,140 L320,165 L280,165 Z" />
+</vector>

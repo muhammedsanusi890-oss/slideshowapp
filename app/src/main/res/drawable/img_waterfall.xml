@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="150dp"
+    android:viewportWidth="400"
+    android:viewportHeight="300">
+
+    <!-- Sky background -->
+    <path
+        android:fillColor="#E1F5FE"
+        android:pathData="M0,0h400v300h-400z" />
+
+    <!-- Rocks Left -->
+    <path
+        android:fillColor="#424242"
+        android:pathData="M0,0 L160,0 L140,250 L0,250 Z" />
+
+    <!-- Rocks Right -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M240,0 L400,0 L400,250 L260,250 Z" />
+
+    <!-- Waterfall Main Flow -->
+    <path
+        android:fillColor="#80DEEA"
+        android:pathData="M160,0 L240,0 L245,240 L155,240 Z" />
+    <path
+        android:fillColor="#B2EBF2"
+        android:pathData="M180,0 L220,0 L222,240 L178,240 Z" />
+
+    <!-- Pool Water -->
+    <path
+        android:fillColor="#0097A7"
+        android:pathData="M0,220h400v80h-400z" />
+
+    <!-- Water Splash Foam -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M130,230 Q200,210 270,230 T400,230 L400,300 L0,300 Z"
+        android:fillAlpha="0.7" />
+</vector>

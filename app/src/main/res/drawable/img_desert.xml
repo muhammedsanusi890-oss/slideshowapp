@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="150dp"
+    android:viewportWidth="400"
+    android:viewportHeight="300">
+
+    <!-- Sky -->
+    <path
+        android:fillColor="#FFF3E0"
+        android:pathData="M0,0h400v300h-400z" />
+
+    <!-- Sun -->
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M100,70m-35,0a35,35 0 1,1 70,0a35,35 0 1,1 -70,0" />
+
+    <!-- Background Dune -->
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M0,200 Q150,130 300,190 T400,180 L400,300 L0,300 Z" />
+
+    <!-- Middle Dune -->
+    <path
+        android:fillColor="#FFA726"
+        android:pathData="M0,230 Q220,160 400,240 L400,300 L0,300 Z" />
+
+    <!-- Foreground Dune -->
+    <path
+        android:fillColor="#FB8C00"
+        android:pathData="M0,270 Q120,210 280,270 T400,260 L400,300 L0,300 Z" />
+</vector>

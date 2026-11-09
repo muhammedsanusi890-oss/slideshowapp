@@ -1,0 +1,45 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="150dp"
+    android:viewportWidth="400"
+    android:viewportHeight="300">
+
+    <!-- Sky -->
+    <path
+        android:fillColor="#B2EBF2"
+        android:pathData="M0,0h400v180h-400z" />
+
+    <!-- Sun -->
+    <path
+        android:fillColor="#FFF176"
+        android:pathData="M320,60m-30,0a30,30 0 1,1 60,0a30,30 0 1,1 -60,0" />
+
+    <!-- Ocean Water -->
+    <path
+        android:fillColor="#00BCD4"
+        android:pathData="M0,160h400v140h-400z" />
+
+    <!-- Sandy Beach Shore -->
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M0,230 Q200,200 400,250 L400,300 L0,300 Z" />
+
+    <!-- Palm Tree Trunk -->
+    <path
+        android:fillColor="#6D4C41"
+        android:pathData="M120,240 Q100,170 80,110 L95,108 Q115,168 135,240 Z" />
+
+    <!-- Palm Leaves -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M85,110 Q40,90 10,120 Q50,130 85,110 Z" />
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M85,110 Q60,60 20,70 Q60,95 85,110 Z" />
+    <path
+        android:fillColor="#1B5E20"
+        android:pathData="M85,110 Q120,50 160,70 Q130,95 85,110 Z" />
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M85,110 Q140,90 170,120 Q130,130 85,110 Z" />
+</vector>
